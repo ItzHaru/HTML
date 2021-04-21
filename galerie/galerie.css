@@ -6,24 +6,101 @@ main {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     float: left;
     width: 24%;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+
   }
   
   div.gallery img {
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
     width: 100%;
     height: auto;
   }
   
-  div.desc {
+  div.desc1 {
+    margin-top: -5px;
+    color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #5b369d, #9b72ce);
     padding: 15px;
     text-align: center;
   }
+
+  div.desc2 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #4301a3, #664092);
+    padding: 15px;
+    text-align: center;
+  }
+  div.desc3 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #5a3877, #9c57a9);
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.desc4 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #6d4079, #352049);
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.desc5 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #602b71, #ce6fc8);
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.desc6 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #6b40b3, #b38bc6);
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.desc7 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #4f398e, #a57dbd);
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.desc8 {
+    color: white;
+    margin-top: -5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(to right, #6000dd, #7911d4);
+    padding: 15px;
+    text-align: center;
+  }
+
   .clear {
       clear: both;
   }

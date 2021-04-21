@@ -7,20 +7,20 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #5b369d;
     padding: 25px;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     font-size: 35px;
     color:#eee;     
+    background-image: linear-gradient(to right, #5b369d, #9b72ce);
 }
 
 footer {
     margin: 30px -8px -10px -8px;
     color: white;
     text-align: center;
-    background-color: #5b369d;
+    background-image: linear-gradient(to right, #5b369d, #9b72ce);
     padding: 5px;
 }
 
