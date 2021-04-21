@@ -23,6 +23,10 @@ footer {
     text-align: center;
     background-image: linear-gradient(to bottom right, #5b369d, #9b72ce);
     padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
 }
 
 .topnav {

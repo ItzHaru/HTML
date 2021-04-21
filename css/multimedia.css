@@ -52,6 +52,9 @@ footer {
     text-align: center;
     background-image: linear-gradient(to bottom right, #235a81, #6390ad);
     padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .topnav {
