@@ -8,10 +8,11 @@ div.gallery {
     margin: 5px;
     float: left;
     width: 24%;
+    transition: 0.7s;
   }
   
   div.gallery:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.06, 1.06);
   }
   
   div.gallery img {

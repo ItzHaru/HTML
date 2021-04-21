@@ -7,14 +7,14 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #cc9226;
     padding: 25px;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     font-size: 35px;
     text-shadow: 2px 2px 5px #ecc348;
-    color:#eee; 
+    color:#eee;
+    background-image: linear-gradient(to bottom right, #a37921, #e9b93a);
 }
 
 h2 {
@@ -34,13 +34,13 @@ footer {
     margin: 30px -8px -10px -8px;
     color: white;
     text-align: center;
-    background-color: #795518;
+    background-image: linear-gradient(to bottom right, #a37921, #e9b93a);
     padding: 5px;
 }
 
 .topnav {
     margin: -24px -8px 17px -8px;
-    background-color: #6e4a0f;
+    background-color: #795111;
     overflow: hidden;
   }
   
