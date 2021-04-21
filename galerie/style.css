@@ -12,21 +12,22 @@ h1 {
     margin-left: -8px;
     margin-right: -8px;
     font-size: 35px;
-    color:#eee;     
-    background-image: linear-gradient(to right, #5b369d, #9b72ce);
+    color:#eee;
+    text-shadow: 2px 2px 5px rgb(193, 146, 255); 
+    background-image: linear-gradient(to bottom right, #5b369d, #9b72ce);
 }
 
 footer {
     margin: 30px -8px -10px -8px;
     color: white;
     text-align: center;
-    background-image: linear-gradient(to right, #5b369d, #9b72ce);
+    background-image: linear-gradient(to bottom right, #5b369d, #9b72ce);
     padding: 5px;
 }
 
 .topnav {
     margin: -24px -8px 17px -8px;
-    background-color: #45029f;
+    background-color: #580bb6;
     overflow: hidden;
   }
   
