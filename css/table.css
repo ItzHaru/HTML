@@ -1,0 +1,60 @@
+dl {
+text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 45%;
+}
+
+caption {
+    color: #eee;
+    padding: 1px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: #795518;
+}
+
+th, td {
+padding: 5px;
+}
+
+th {
+    color: #eee;
+    background-color: #9e7420;
+}
+
+tfoot {
+    background-color: #795518; 
+}
+
+.w {
+    color: #eee;
+}
+
+.fotka {
+    background-color: #080f09;
+    padding: 0px;
+}
+
+.zarovnani {
+text-align: center;
+}
+
+table, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+dt {
+    font-weight:bolder;
+    font-size: 1.5em;
+    margin-bottom: 1px;
+}
+
+dd {
+    font-style: italic;
+    margin-left: 0;
+    margin-bottom: 17px;
+}

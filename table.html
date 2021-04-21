@@ -5,49 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabulka v HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/table.css">
 </head>
 
 <body>
     <header>
         <h1>Tabulky v HTML</h1>
     </header>
+    <div class="topnav">
+        <a href="galerie/index.html">Fotogalerie</a>
+        <a class="active" href="table.html">Tabulka</a>
+        <a href="multimadia.html">Multimédia</a>
+      </div>
     <main>
-        <h2>Slavná osobnost: </h2>
-        <table border="1">
-            <caption>Vizitka slavné osobnosti</caption>
-            <thead>
-                <tr>
-                    <th>Portrét</th>
-                    <th colspan="2">Základní údaje</th>
-                    <th>Významné činy</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="3">Foto</td>
-                    <td colspan="2">Jméno a příjmení</td>
-                    <td rowspan="4">Díla</td>
-                </tr>
-                                <tr>
-                    <td>Narození</td>
-                    <td>Úmrtí</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Stručná charakteristika</td>
-                </tr>
-                <tr>
-                    <td>Popisek fotky</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">Odkaz na wikipedii</td>
-                </tr>
-            </tfoot>
-        </table>
+        <section>
+            <h2>Slavná osobnost: Bohuslav Balbín </h2>
+            <table border="1">
+                <caption>Vizitka slavné osobnosti</caption>
+                <thead>
+                    <tr>
+                        <th>Portrét</th>
+                        <th colspan="2">Základní údaje</th>
+                        <th>Významné činy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3" class="fotka"><img src="img/bohuslav-balbin.jpg" alt="Bohuslav Balbín"></td>
+                        <td colspan="2">Bohuslav Balbín</td>
+                        <td rowspan="4">Díla: Obrana jazyka českého, Svaté Čechy, Rozmanitosti z historie Království
+                            českého, Život arcibiskupa Arnošta z Pardubic</td>
+                    </tr>
+                    <tr>
+                        <td>3. prosince 1621</td>
+                        <td>28. listopadu 1688</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="2">Český literát, historik, hagiograf a pedagog. Jako kněz, člen řádu
+                            jezuitů se účastnil rekatolizace, jako vlastenec se ve své době řadil mezi obhájce českého
+                            jazyka. Patří mezi nejvýznamnější osobnosti českého baroka.</td>
+                    </tr>
+                    <tr>
+                        <td>Bohuslav Balbín</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="zarovnani"><a class="w"
+                                href="https://cs.wikipedia.org/wiki/Bohuslav_Balb%C3%ADn" target="_blank">Odkaz
+                                na wikipedii</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <h2 class="odsazeni">Značky a atributy tabulky</h2>
+        <dl>
+            <dt>tr</dt>
+            <dd>Vytvoření řady tabulky</dd>
+            <dt>th</dt>
+            <dd>Nadpis kategorie tabulky</dd>
+            <dt>td</dt>
+            <dd>Data jednotlivých buněk tabulky</dd>
+            <dt>colspan</dt>
+            <dd>Atribut zajišťijící rozpětí přes několik sloupců.</dd>
+            <dt>rowspan</dt>
+            <dd>Atribut zajišťijící rozpětí přes několik řádků.</dd>
+            <dt>table</dt>
+            <dd>Značka, která zajistí ohraničení celé tabulky</dd>
+            <dt>thead</dt>
+            <dd>Záhlaví tabulky</dd>
+            <dt>tbody</dt>
+            <dd>Tělo tabulky</dd>
+            <dt>tfoot</dt>
+            <dd>Pata (spodní část) tabulky</dd>
+        </dl>
     </main>
     <footer>
-
+        <p>&copy; 2021 - Růženka Perinová IT1</p>
     </footer>
 
 </body>

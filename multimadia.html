@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia a HTML</title>
+    <link rel="stylesheet" href="css/multimedia.css">
+</head>
+
+<body>
+    <header>
+        <h1>Multimedia a HTML</h1>
+    </header>
+    <div class="topnav">
+        <a href="galerie/index.html">Fotogalerie</a>
+        <a href="table.html">Tabulka</a>
+        <a class="active" href="multimadia.html">Multimédia</a>
+      </div>
+    <main>
+        <h2 class="blueu1">Obrázky v HTML</h2>
+        <figure class="fotka">
+            <img src="img/skz.jpg" height="350" alt="q">
+            <figcaption class="odsazeni">STRAY KIDS</figcaption>
+        </figure>
+        <h2 class="blueu">Audio a video v HTML</h2>
+        <figure class="video">
+            <video width="450" height="425" controls>
+                <source src="media/yh.mp4" type="video/mp4">
+                Váš prohlížeč bohužel tento formát nepodporuje.
+            </video>
+            <figcaption>Younghoon a krocani</figcaption>
+        </figure>
+        <figure class="audio">
+            <audio controls>
+                <source src="media/v.mp3" type="audio/mp3">
+                Váš prohlížeč bohužel tento formát nepodporuje
+            </audio>
+            <figcaption class="odsazeni">NIAGARA PO PO</figcaption>
+        </figure>
+        <figure>
+            <h2 class="blueu2">Video z Youtube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SUBENaJNfNY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>&copy; 2021 - Růženka Perinová IT1</p>
+    </footer>
+</body>
+
+</html>

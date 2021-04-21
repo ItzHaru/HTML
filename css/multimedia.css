@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    font-size: 17px;
+    color: #031a3a;
+    text-align: center;
+}
+
+.blueu {
+    color: #031a3a;
+    border-bottom: 3px solid #6a88b1;
+}
+
+.blueu2 {
+    color: #031a3a;
+    border-bottom: 3px solid #46a0a8;
+}
+
+.blueu1 {
+    color: #031a3a;
+    border-bottom: 3px solid #2b6e98;
+}
+
+h1 {
+    text-align: center;
+    background-color: #235a81;
+    padding: 25px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-size: 35px;
+    color:#eee;     
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 3px solid #59161d;
+    padding-bottom: 5px;
+    color: #190606;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.odsazeni {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 30px -8px -10px -8px;
+    color: white !important;
+    text-align: center;
+    background-color: #235a81;
+    padding: 5px;
+}
+
+.topnav {
+    margin: -24px -8px 17px -8px;
+    background-color: #134164;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #3e789f;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #4985a7;
+    color: white;
+  }
